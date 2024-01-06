@@ -1,0 +1,129 @@
+h1 {
+    color: rgb(251, 249, 249);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline rgb(243, 240, 240);
+    margin-right: 2%;
+    padding: 25px;
+}
+
+body {
+    background-image: url("Calculator.2.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    background-position-y: -10%;
+    background-size: cover;
+}
+
+form {
+    margin-left:35%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: rgb(250, 246, 246);
+    font-weight: bold;
+}
+
+
+.demo {
+    color: white;
+    font-weight: 700;
+    width: 10%;
+    height: 4vh;
+    margin-left: 12%;
+    background-color: red;
+}
+
+.demo:hover {
+    background-color:black;
+}
+
+.demo:active {
+    background-color: rgb(115, 112, 112);
+}
+
+.demo1 {
+    color: white;
+    font-weight: 700;
+    width: 10%;
+    height: 4vh;
+    margin-left: 1%;
+    background-color: black;
+}
+
+.demo1:hover {
+    background-color: red;
+}
+
+.demo1:active {
+    background-color: gray;
+}
+
+.m4,
+.m5,
+.m6{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+
+}
+table{
+    padding-left: 0%;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+    height: 40%;
+    border-width: thick;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid rgb(5, 5, 5);
+    
+    
+}
+
+span{
+    padding-left: 30%;color: blue;   
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(249, 39, 6);font-weight: 900;
+}
+#principal,
+#rate,
+#time{
+    border-radius:50px;
+    border-width: 0.2cm;
+    margin: 10px;
+    height: 3vh;
+    padding: 5px;
+    background-color: rgba(240, 255, 255, 0.734);
+
+
+    border-color: red;
+}
+input {
+    width: 40%;
+    size: 20px;
+}
+label{
+    color: rgb(250, 244, 244);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a{
+      color: rgb(230, 246, 5);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight:900;
+      padding: 15px;
+      border-color: rgb(8, 8, 8);
+      border-width: 3px;
+      background-color: rgba(126, 125, 125, 0.6);
+}
+.b{
+    color: rgb(9, 9, 9);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    padding: 15px;
+    border-color: rgb(247, 246, 246);
+    border-width: 3px;
+    background-color: rgba(126, 125, 125, 0.6);
+}
